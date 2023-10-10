@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Victor+Mono:ital,wght@1,500&display=swap');
+
+:root {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.quiz {
+    background-color: #0d479a;
+    padding: 30px;
+}
+
+.heading {
+    margin: 10px auto 40px auto;
+}
+
+.heading .title {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+}
+
+.heading .subtitle {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+}
+
+.result {
+    text-align: center;
+    min-width: 350px;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: var(--box-shadow)
+}
+
+.result p:first-child {
+    padding: 10px 20px;
+    margin-bottom: 0px;
+}
+
+.hide {
+    display: none;
+}
+
+.reload button {
+    background-color: #04aa6d;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 0px 0px 6px 6px;
+    width: 100%;
+    border: 0px;
+}
+
+.quiz-form {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.reload button:hover {
+    background-color: #03a369;
+    cursor: pointer;
+}
+
+.question {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin: 20px 0px;
+    box-shadow: var(--box-shadow);
+}
+
+.question>* {
+    font-size: 18px;
+}
+
+.option {
+    margin-left: 10px;
+}
+
+.correct {
+    background-color: #c8ffdf;
+}
+
+.wrong {
+    background-color: #ffd1d1;
+}
+
+.submit {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.submit input {
+    background-color: #04aa6d;
+    padding: 5px 25px;
+    color: #ffffff;
+    font-size: 22px;
+    border-radius: 6px;
+    box-shadow: var(--box-shadow);
+    border: 0px;
+}
+
+.submit input:hover {
+    background-color: #03a369;
+    cursor: pointer;
+}
