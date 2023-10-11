@@ -1,4 +1,4 @@
-const correctAnswers = ["D", "C", "C", "C", "A"];
+const correctAnswers = ["D", "B", "C", "C", "A"];
 const form = document.querySelector(".quiz-form");
 const result = document.querySelector(".result");
 const tryAgainButton = document.querySelector(".reload");
